@@ -33,6 +33,9 @@
 		4943759F1B2873E100992F8D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4943759E1B2873E100992F8D /* libsqlite3.dylib */; };
 		494375A11B2873F700992F8D /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494375A01B2873F700992F8D /* Accounts.framework */; };
 		494375A31B2873FE00992F8D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494375A21B2873FE00992F8D /* Social.framework */; };
+		494375A51B28B1EA00992F8D /* TimelineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494375A41B28B1EA00992F8D /* TimelineTableViewController.swift */; };
+		494375A71B28B21300992F8D /* EditReportTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494375A61B28B21300992F8D /* EditReportTableViewController.swift */; };
+		494375A91B28B25800992F8D /* ReportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494375A81B28B25800992F8D /* ReportTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +80,9 @@
 		4943759E1B2873E100992F8D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		494375A01B2873F700992F8D /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		494375A21B2873FE00992F8D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		494375A41B28B1EA00992F8D /* TimelineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewController.swift; sourceTree = "<group>"; };
+		494375A61B28B21300992F8D /* EditReportTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditReportTableViewController.swift; sourceTree = "<group>"; };
+		494375A81B28B25800992F8D /* ReportTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +148,9 @@
 				494375591B286FB000992F8D /* AppDelegate.swift */,
 				4943755B1B286FB000992F8D /* ViewController.swift */,
 				4943755D1B286FB000992F8D /* Main.storyboard */,
+				494375A81B28B25800992F8D /* ReportTableViewCell.swift */,
+				494375A41B28B1EA00992F8D /* TimelineTableViewController.swift */,
+				494375A61B28B21300992F8D /* EditReportTableViewController.swift */,
 				494375571B286FB000992F8D /* Supporting Files */,
 			);
 			path = StokePatrol;
@@ -312,7 +321,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4943755C1B286FB000992F8D /* ViewController.swift in Sources */,
+				494375A51B28B1EA00992F8D /* TimelineTableViewController.swift in Sources */,
 				4943755A1B286FB000992F8D /* AppDelegate.swift in Sources */,
+				494375A91B28B25800992F8D /* ReportTableViewCell.swift in Sources */,
+				494375A71B28B21300992F8D /* EditReportTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
