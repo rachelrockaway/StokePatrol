@@ -121,6 +121,9 @@
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="NDO-SM-5BX" kind="show" identifier="EditReportSegue" id="KTA-5d-MAa"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -157,7 +160,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vOC-q1-HwF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1250" y="252"/>
+            <point key="canvasLocation" x="1309" y="252"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="bsK-tr-MUi">
