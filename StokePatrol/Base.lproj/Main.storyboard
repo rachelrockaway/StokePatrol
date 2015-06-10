@@ -175,7 +175,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="Xjd-zQ-Wca">
-                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="lbQ-Wa-Y7V"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="lbQ-Wa-Y7V">
+                            <connections>
+                                <action selector="loadData" destination="f2A-eJ-wdg" id="8fv-37-cKE"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>

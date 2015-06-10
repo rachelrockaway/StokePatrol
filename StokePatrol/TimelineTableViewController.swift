@@ -10,6 +10,12 @@ import Parse
 import UIKit
 
 class TimelineTableViewController: UITableViewController {
+    
+    var timelineData = NSMutableArray()
+    
+    @IBAction func loadData(){
+        timelineData.removeAllObjects()
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
