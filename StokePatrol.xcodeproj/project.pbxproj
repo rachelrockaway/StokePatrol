@@ -36,6 +36,7 @@
 		494375A51B28B1EA00992F8D /* TimelineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494375A41B28B1EA00992F8D /* TimelineTableViewController.swift */; };
 		494375A71B28B21300992F8D /* EditReportTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494375A61B28B21300992F8D /* EditReportTableViewController.swift */; };
 		494375A91B28B25800992F8D /* ReportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494375A81B28B25800992F8D /* ReportTableViewCell.swift */; };
+		497EB5341B28EC3B00B7EF66 /* BreakNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497EB5331B28EC3B00B7EF66 /* BreakNameTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		494375A41B28B1EA00992F8D /* TimelineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewController.swift; sourceTree = "<group>"; };
 		494375A61B28B21300992F8D /* EditReportTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditReportTableViewController.swift; sourceTree = "<group>"; };
 		494375A81B28B25800992F8D /* ReportTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportTableViewCell.swift; sourceTree = "<group>"; };
+		497EB5331B28EC3B00B7EF66 /* BreakNameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BreakNameTableViewCell.swift; path = ../BreakNameTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				494375591B286FB000992F8D /* AppDelegate.swift */,
 				4943755B1B286FB000992F8D /* ViewController.swift */,
 				4943755D1B286FB000992F8D /* Main.storyboard */,
+				497EB5331B28EC3B00B7EF66 /* BreakNameTableViewCell.swift */,
 				494375A81B28B25800992F8D /* ReportTableViewCell.swift */,
 				494375A41B28B1EA00992F8D /* TimelineTableViewController.swift */,
 				494375A61B28B21300992F8D /* EditReportTableViewController.swift */,
@@ -322,6 +325,7 @@
 			files = (
 				4943755C1B286FB000992F8D /* ViewController.swift in Sources */,
 				494375A51B28B1EA00992F8D /* TimelineTableViewController.swift in Sources */,
+				497EB5341B28EC3B00B7EF66 /* BreakNameTableViewCell.swift in Sources */,
 				4943755A1B286FB000992F8D /* AppDelegate.swift in Sources */,
 				494375A91B28B25800992F8D /* ReportTableViewCell.swift in Sources */,
 				494375A71B28B21300992F8D /* EditReportTableViewController.swift in Sources */,
@@ -534,6 +538,7 @@
 				494375751B286FB000992F8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		494375761B286FB000992F8D /* Build configuration list for PBXNativeTarget "StokePatrolTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +547,7 @@
 				494375781B286FB000992F8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
