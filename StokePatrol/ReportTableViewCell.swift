@@ -18,7 +18,7 @@ class ReportTableViewCell: UITableViewCell {
     
     @IBOutlet weak var usernameLabel: UILabel!
     
-    @IBOutlet weak var timeLabel: UILabel!
+    @IBOutlet weak var timestampLabel: UILabel!
     
     
     @IBOutlet weak var reportTextView: UITextView!

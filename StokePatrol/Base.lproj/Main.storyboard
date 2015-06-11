@@ -162,7 +162,7 @@
                                 <connections>
                                     <outlet property="reportTextView" destination="p4u-ud-9r4" id="ba2-8v-ePL"/>
                                     <outlet property="tideDirectionLabel" destination="iHt-D2-KUa" id="DJU-YG-7EN"/>
-                                    <outlet property="timeLabel" destination="eDq-WD-zZO" id="uSY-YD-SNP"/>
+                                    <outlet property="timestampLabel" destination="eDq-WD-zZO" id="MKh-en-C9o"/>
                                     <outlet property="usernameLabel" destination="Uuq-5f-2Iy" id="HuW-Fk-2yU"/>
                                     <outlet property="waveHeightLabel" destination="Pzs-Fm-0G1" id="yaP-Lc-yl5"/>
                                     <outlet property="windDirectionLabel" destination="xbl-Za-pMY" id="gfV-qx-rvN"/>

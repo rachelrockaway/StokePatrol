@@ -9,5 +9,7 @@
 #ifndef StokePatrol_bridge_h
 #define StokePatrol_bridge_h
 
+#import <Parse/Parse.h>
+#import <ParseUI/ParseUI.h>
 
 #endif
