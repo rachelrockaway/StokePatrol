@@ -11,8 +11,7 @@ import UIKit
 
 class ReportTableViewCell: UITableViewCell {
 
-    
-    //Data Variables
+
     
     //Outlets
     
