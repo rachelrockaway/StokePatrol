@@ -10,7 +10,23 @@ import Parse
 import UIKit
 
 class EditReportTableViewController: UITableViewController {
+    
+    
+    //Data Variables
+    
+    //Outlets
+    
+    @IBOutlet weak var editBreakLabel: UILabel!
+    
+    @IBOutlet weak var reportTextView: UITextView!
+    
+    @IBOutlet weak var charRemainingLabel: UILabel!
+    
+    //Actions
 
+    @IBAction func sendReport(sender: AnyObject) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
