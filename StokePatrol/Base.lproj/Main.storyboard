@@ -58,11 +58,13 @@
                                         </label>
                                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut " translatesAutoresizingMaskIntoConstraints="NO" id="p4u-ud-9r4">
                                             <rect key="frame" x="21" y="28" width="278" height="87"/>
-                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                         </textView>
                                     </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     <constraints>
                                         <constraint firstItem="Pzs-Fm-0G1" firstAttribute="top" secondItem="p4u-ud-9r4" secondAttribute="bottom" id="0DH-el-xO1"/>
                                         <constraint firstItem="iHt-D2-KUa" firstAttribute="leading" secondItem="hAR-Xt-qFN" secondAttribute="leadingMargin" constant="208" id="1hJ-0U-hSG"/>
@@ -129,6 +131,7 @@
                                         </mask>
                                     </variation>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="reportTextView" destination="p4u-ud-9r4" id="ba2-8v-ePL"/>
@@ -184,11 +187,13 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EditBreakLabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JHi-Vo-WH7">
                                                     <rect key="frame" x="8" y="11" width="304" height="21"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <constraints>
                                                 <constraint firstItem="JHi-Vo-WH7" firstAttribute="top" secondItem="Mfb-Za-Bzz" secondAttribute="topMargin" constant="3" id="8RY-AT-We7"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="JHi-Vo-WH7" secondAttribute="bottom" constant="3" id="A6V-k8-Wk5"/>
@@ -204,6 +209,7 @@
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="WaveHeight" id="jiN-Er-5Jb">
                                         <autoresizingMask key="autoresizingMask"/>
@@ -212,6 +218,7 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wave height" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMa-dn-gaI">
                                                     <rect key="frame" x="8" y="11" width="108" height="21"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
@@ -223,6 +230,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <constraints>
                                                 <constraint firstItem="bMa-dn-gaI" firstAttribute="leading" secondItem="7dc-B2-I3f" secondAttribute="leadingMargin" id="4op-YQ-gR9"/>
                                                 <constraint firstItem="Hea-v1-irZ" firstAttribute="top" secondItem="7dc-B2-I3f" secondAttribute="topMargin" constant="3" id="Aha-PI-PSc"/>
@@ -244,6 +252,7 @@
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="WindSpeed" id="bsF-LZ-p7c">
                                         <autoresizingMask key="autoresizingMask"/>
@@ -274,6 +283,7 @@
                                                 <constraint firstItem="Yxn-nB-B8r" firstAttribute="top" secondItem="FQe-qA-GIG" secondAttribute="topMargin" constant="3" id="tD9-sX-Paq"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="WindDirection" id="F66-oU-jBU">
                                         <autoresizingMask key="autoresizingMask"/>
@@ -304,6 +314,7 @@
                                                 <constraint firstAttribute="bottomMargin" secondItem="PBi-oI-Erk" secondAttribute="bottom" constant="3" id="yuY-s6-eXJ"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Tide" rowHeight="45" id="AwT-9F-NNn">
                                         <autoresizingMask key="autoresizingMask"/>
@@ -334,16 +345,16 @@
                                                 <constraint firstAttribute="bottomMargin" secondItem="iEF-nz-jq8" secondAttribute="bottom" constant="4" id="lEC-cU-3qi"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReportText" rowHeight="188" id="mno-gy-COZ">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mno-gy-COZ" id="4rR-Ob-aQq">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hve-a8-OTu">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore" translatesAutoresizingMaskIntoConstraints="NO" id="Hve-a8-OTu">
                                                     <rect key="frame" x="8" y="8" width="304" height="124"/>
-                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </string>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
@@ -354,6 +365,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <constraints>
                                                 <constraint firstItem="9aI-9w-8lT" firstAttribute="leading" secondItem="4rR-Ob-aQq" secondAttribute="leadingMargin" constant="254" id="1WG-Et-ipR"/>
                                                 <constraint firstItem="Hve-a8-OTu" firstAttribute="top" secondItem="4rR-Ob-aQq" secondAttribute="topMargin" id="PfZ-xk-dDg"/>
@@ -370,6 +382,7 @@
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>

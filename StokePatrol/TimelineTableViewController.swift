@@ -13,7 +13,6 @@ class TimelineTableViewController: UITableViewController, UITableViewDelegate, P
     
     var timelineData = NSMutableArray()
     
-    let backgroundImage = UIImageView(image: UIImage(named: "backgrounda"))
     
     @IBAction func loadData(){
         timelineData.removeAllObjects()
@@ -49,6 +48,7 @@ class TimelineTableViewController: UITableViewController, UITableViewDelegate, P
     override func viewDidLoad() {
         super.viewDidLoad()
 
+
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -81,11 +81,11 @@ class TimelineTableViewController: UITableViewController, UITableViewDelegate, P
 
         let report = self.timelineData.objectAtIndex(indexPath.row) as! PFObject
         
-        cell.reportTextView.text = report.objectForKey("content") as? String
+       cell.reportTextView.text = report.objectForKey("content") as? String
         
-        cell.reportTextView.alpha = 0
-        cell.timestampLabel.alpha = 0
-        cell.usernameLabel.alpha = 0
+       cell.reportTextView.alpha = 0
+       cell.timestampLabel.alpha = 0
+       cell.usernameLabel.alpha = 0
         
         
         var dataFormatter = NSDateFormatter()
@@ -106,9 +106,9 @@ class TimelineTableViewController: UITableViewController, UITableViewDelegate, P
                 
                 UIView.animateWithDuration(0.5, animations:{
                     
-                    cell.reportTextView.alpha = 1
-                    cell.timestampLabel.alpha = 1
-                    cell.usernameLabel.alpha = 1
+                 cell.reportTextView.alpha = 1
+                 cell.timestampLabel.alpha = 1
+                 cell.usernameLabel.alpha = 1
                     
                 })
                 
