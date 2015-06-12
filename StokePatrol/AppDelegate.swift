@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 rachelrockaway. All rights reserved.
 //
 
-import Parse
-import Bolts
+
+
 import UIKit
 
 @UIApplicationMain

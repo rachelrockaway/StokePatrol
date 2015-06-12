@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 rachelrockaway. All rights reserved.
 //
 
-import Parse
+
 import UIKit
 
 class BreakNameTableViewCell: UITableViewCell {
