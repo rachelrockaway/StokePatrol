@@ -14,8 +14,6 @@ class EditReportTableViewController: UITableViewController, UITextViewDelegate {
     
     //Data Variables
     
-    let backgroundImage = UIImageView(image: UIImage(named: "backgrounda"))
-    
     //Outlets
     
     @IBOutlet weak var editBreakLabel: UILabel!
@@ -30,10 +28,7 @@ class EditReportTableViewController: UITableViewController, UITextViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.backgroundView = backgroundImage
-    
-    reportTextView.layer.borderColor = UIColor.blackColor().CGColor
-    reportTextView.layer.borderWidth = 0.5
+
     reportTextView.layer.cornerRadius = 5
     reportTextView.delegate = self
     

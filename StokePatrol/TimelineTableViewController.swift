@@ -12,6 +12,7 @@ import UIKit
 class TimelineTableViewController: UITableViewController, UITableViewDelegate, PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate {
     
     var timelineData = NSMutableArray()
+
     
     
     @IBAction func loadData(){
@@ -41,6 +42,7 @@ class TimelineTableViewController: UITableViewController, UITableViewDelegate, P
         self.loadData()
         
         super.viewDidAppear(animated)
+        
         
         logInSetup()
     }
