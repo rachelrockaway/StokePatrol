@@ -9,13 +9,16 @@
 
 import UIKit
 
-class EditReportTableViewController: UITableViewController, UITextViewDelegate {
-    
+class EditReportTableViewController: XLFormViewController {
+  
+    private enum Tags : String {
+        case WaveSize = "WAVE SIZE"
+    }
     
     //Data Variables
     
     //Outlets
-    
+/*
     @IBOutlet weak var editBreakLabel: UILabel!
     
     @IBOutlet weak var reportTextView: UITextView!
@@ -25,11 +28,11 @@ class EditReportTableViewController: UITableViewController, UITextViewDelegate {
     required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
-    
+*/
     override func viewDidLoad() {
         super.viewDidLoad()
-
-    reportTextView.layer.cornerRadius = 5
+/*
+   reportTextView.layer.cornerRadius = 5
     reportTextView.delegate = self
     
     reportTextView.becomeFirstResponder()
@@ -39,7 +42,7 @@ class EditReportTableViewController: UITableViewController, UITextViewDelegate {
     //Actions
 
     @IBAction func sendReport(sender: AnyObject) {
-        
+
         var report = PFObject(className: "Reports")
         report["content"] = reportTextView.text
         report["reporter"] = PFUser.currentUser()
@@ -77,5 +80,6 @@ class EditReportTableViewController: UITableViewController, UITextViewDelegate {
         // Pass the selected object to the new view controller.
     }
     */
-
+    */
+ }
 }

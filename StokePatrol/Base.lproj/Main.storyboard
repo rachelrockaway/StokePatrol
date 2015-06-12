@@ -155,7 +155,7 @@
                     <navigationItem key="navigationItem" id="Xjd-zQ-Wca">
                         <barButtonItem key="leftBarButtonItem" systemItem="add" id="dGY-4v-JEl">
                             <connections>
-                                <segue destination="7ZY-rc-GPd" kind="show" identifier="addReportSeque" id="2xG-Eq-dSS"/>
+                                <segue destination="f8j-HR-b3g" kind="show" id="SpK-Lj-wCw"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="lbQ-Wa-Y7V">
@@ -169,14 +169,33 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eSm-mg-hsw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1093" y="262"/>
+            <point key="canvasLocation" x="909" y="252"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4qa-m7-Y96">
+            <objects>
+                <viewController id="f8j-HR-b3g" customClass="VCQViewController" customModule="StokePatrol" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cXs-NF-y0e"/>
+                        <viewControllerLayoutGuide type="bottom" id="cc7-8J-yhE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NE7-89-rtT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nEL-55-4kP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1596" y="252"/>
         </scene>
         <!--Edit Report Table View Controller-->
         <scene sceneID="wIG-c9-TiH">
             <objects>
-                <tableViewController id="7ZY-rc-GPd" customClass="EditReportTableViewController" customModule="StokePatrol" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="ERT" id="7ZY-rc-GPd" customClass="EditReportTableViewController" customModule="StokePatrol" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="VSH-Jl-1QJ">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
@@ -411,7 +430,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vWY-nK-pTb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1268" y="252"/>
+            <point key="canvasLocation" x="1250" y="252"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="bsK-tr-MUi">
@@ -423,8 +442,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="sVo-EJ-SVe">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

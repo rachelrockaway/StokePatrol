@@ -7,7 +7,7 @@
 //
 
 
-
+import Parse
 import UIKit
 
 @UIApplicationMain

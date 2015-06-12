@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		493DCA1D1B29ED3700915F74 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493DCA1C1B29ED3700915F74 /* AppConstants.swift */; };
-		493DCA6E1B2A933A00915F74 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493DCA6B1B2A933900915F74 /* Bolts.framework */; };
-		493DCA6F1B2A933A00915F74 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493DCA6C1B2A933900915F74 /* Parse.framework */; };
-		493DCA701B2A933A00915F74 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493DCA6D1B2A933A00915F74 /* ParseUI.framework */; };
+		493DCA751B2A977D00915F74 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493DCA721B2A977D00915F74 /* Bolts.framework */; };
+		493DCA761B2A977D00915F74 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493DCA731B2A977D00915F74 /* Parse.framework */; };
+		493DCA771B2A977D00915F74 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493DCA741B2A977D00915F74 /* ParseUI.framework */; };
+		493DCA791B2A98EB00915F74 /* VCQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493DCA781B2A98EB00915F74 /* VCQViewController.swift */; };
 		4943755A1B286FB000992F8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494375591B286FB000992F8D /* AppDelegate.swift */; };
 		4943755C1B286FB000992F8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4943755B1B286FB000992F8D /* ViewController.swift */; };
 		4943755F1B286FB000992F8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4943755D1B286FB000992F8D /* Main.storyboard */; };
@@ -50,9 +51,10 @@
 /* Begin PBXFileReference section */
 		0C7279AEE04F1518221AFAD4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		493DCA1C1B29ED3700915F74 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
-		493DCA6B1B2A933900915F74 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
-		493DCA6C1B2A933900915F74 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
-		493DCA6D1B2A933A00915F74 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		493DCA721B2A977D00915F74 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		493DCA731B2A977D00915F74 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		493DCA741B2A977D00915F74 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		493DCA781B2A98EB00915F74 /* VCQViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCQViewController.swift; sourceTree = "<group>"; };
 		494375541B286FB000992F8D /* StokePatrol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StokePatrol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		494375581B286FB000992F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		494375591B286FB000992F8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,16 +92,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				493DCA6E1B2A933A00915F74 /* Bolts.framework in Frameworks */,
+				493DCA751B2A977D00915F74 /* Bolts.framework in Frameworks */,
 				494375A31B2873FE00992F8D /* Social.framework in Frameworks */,
 				494375A11B2873F700992F8D /* Accounts.framework in Frameworks */,
 				4943759F1B2873E100992F8D /* libsqlite3.dylib in Frameworks */,
 				4943759D1B2873D300992F8D /* libz.dylib in Frameworks */,
 				4943759B1B2873C800992F8D /* SystemConfiguration.framework in Frameworks */,
-				493DCA6F1B2A933A00915F74 /* Parse.framework in Frameworks */,
+				493DCA761B2A977D00915F74 /* Parse.framework in Frameworks */,
 				494375991B2873B900992F8D /* StoreKit.framework in Frameworks */,
 				494375971B2873B200992F8D /* Security.framework in Frameworks */,
-				493DCA701B2A933A00915F74 /* ParseUI.framework in Frameworks */,
+				493DCA771B2A977D00915F74 /* ParseUI.framework in Frameworks */,
 				494375951B2873AA00992F8D /* QuartzCore.framework in Frameworks */,
 				494375931B2873A400992F8D /* MobileCoreServices.framework in Frameworks */,
 				494375911B28739A00992F8D /* CoreLocation.framework in Frameworks */,
@@ -129,12 +131,12 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		493DCA6A1B2A933900915F74 /* Parse */ = {
+		493DCA711B2A977D00915F74 /* Parse */ = {
 			isa = PBXGroup;
 			children = (
-				493DCA6B1B2A933900915F74 /* Bolts.framework */,
-				493DCA6C1B2A933900915F74 /* Parse.framework */,
-				493DCA6D1B2A933A00915F74 /* ParseUI.framework */,
+				493DCA721B2A977D00915F74 /* Bolts.framework */,
+				493DCA731B2A977D00915F74 /* Parse.framework */,
+				493DCA741B2A977D00915F74 /* ParseUI.framework */,
 			);
 			path = Parse;
 			sourceTree = "<group>";
@@ -143,7 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				494375561B286FB000992F8D /* StokePatrol */,
-				493DCA6A1B2A933900915F74 /* Parse */,
+				493DCA711B2A977D00915F74 /* Parse */,
 				494375891B28735C00992F8D /* Frameworks */,
 				4943756C1B286FB000992F8D /* StokePatrolTests */,
 				494375551B286FB000992F8D /* Products */,
@@ -166,6 +168,7 @@
 				494375591B286FB000992F8D /* AppDelegate.swift */,
 				4943755B1B286FB000992F8D /* ViewController.swift */,
 				4943755D1B286FB000992F8D /* Main.storyboard */,
+				493DCA781B2A98EB00915F74 /* VCQViewController.swift */,
 				493DCA1C1B29ED3700915F74 /* AppConstants.swift */,
 				497EB5331B28EC3B00B7EF66 /* BreakNameTableViewCell.swift */,
 				494375A81B28B25800992F8D /* ReportTableViewCell.swift */,
@@ -363,6 +366,7 @@
 				4943755C1B286FB000992F8D /* ViewController.swift in Sources */,
 				494375A51B28B1EA00992F8D /* TimelineTableViewController.swift in Sources */,
 				497EB5341B28EC3B00B7EF66 /* BreakNameTableViewCell.swift in Sources */,
+				493DCA791B2A98EB00915F74 /* VCQViewController.swift in Sources */,
 				4943755A1B286FB000992F8D /* AppDelegate.swift in Sources */,
 				493DCA1D1B29ED3700915F74 /* AppConstants.swift in Sources */,
 				494375A91B28B25800992F8D /* ReportTableViewCell.swift in Sources */,
